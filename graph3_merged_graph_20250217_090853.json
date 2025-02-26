@@ -1,0 +1,5632 @@
+{
+  "final_kcs": [
+    {
+      "id": "KC_0",
+      "cognitive_action": "recall",
+      "content_element": "Recalling the formula for the perimeter of a rectangle.",
+      "learning_outcome": "Ability to accurately state the formula for calculating the area of a parallelogram (Area = base * height).",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_123"
+          ],
+          "child_kcs": [
+            "KC_23",
+            "KC_102",
+            "KC_123"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The formula for the perimeter of a rectangle is $2 \\times (\\text{width} + \\text{height})$.",
+        "The formula for the perimeter of a rectangle is $2 \\times (\\text{width} + \\text{height})$"
+      ]
+    },
+    {
+      "id": "KC_1",
+      "cognitive_action": "retrieve",
+      "content_element": "Ability to extract numerical measurements from a problem statement and a diagram.",
+      "learning_outcome": "Accurately identify and record the given numerical values and their corresponding units from the problem description and any accompanying figures.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": [
+            "KC_5",
+            "KC_2",
+            "KC_9"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Side length of the square is 13 cm.",
+        "Distance from the top-left corner of the square to the top-left corner of the parallelogram is 5 cm."
+      ]
+    },
+    {
+      "id": "KC_2",
+      "cognitive_action": "retrieve",
+      "content_element": "Ability to identify numerical values from a textual problem description.",
+      "learning_outcome": "Accurately extract and record numerical values presented in the problem statement, noting their association with specific elements or variables.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_1"
+          ],
+          "child_kcs": [
+            "KC_3",
+            "KC_95",
+            "KC_4"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Side length of the square is 13 cm.",
+        "The problem description provides this information:",
+        "In 2016, the number of harvested peaches is 2300 개.",
+        "In 2017, the number of harvested peaches is 1700 개."
+      ]
+    },
+    {
+      "id": "KC_3",
+      "cognitive_action": "recognize",
+      "content_element": "Ability to recognize numerical characters within a string of text.",
+      "learning_outcome": "Identify numerical characters within a text string, differentiating them from non-numerical characters.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_0",
+        "SEQ_1_0",
+        "PLL_2",
+        "SEQ_3_0",
+        "PLL_4"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_3",
+            "KC_117",
+            "KC_2",
+            "KC_95"
+          ],
+          "child_kcs": [
+            "KC_94",
+            "KC_3"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Side length of the square is 13 cm.",
+        "In 2016, the number of harvested peaches is 2300 개.",
+        "In 2017, the number of harvested peaches is 1700 개.",
+        "In 2016, the number of harvested peaches is 2300 개.",
+        "In 2016, the number of harvested peaches is 2300 개.",
+        "This height is also the height of the larger rectangle."
+      ]
+    },
+    {
+      "id": "KC_4",
+      "cognitive_action": "retrieve",
+      "content_element": "Ability to associate numerical values with corresponding elements or variables described in the text.",
+      "learning_outcome": "Accurately link extracted numerical values to their respective objects or properties as defined in the problem statement.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_2"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Side length of the square is 13 cm."
+      ]
+    },
+    {
+      "id": "KC_5",
+      "cognitive_action": "retrieve",
+      "content_element": "Ability to identify numerical values from a diagram.",
+      "learning_outcome": "Accurately extract and record numerical values presented in a diagram, noting their association with specific elements or variables.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_5"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_1"
+          ],
+          "child_kcs": [
+            "KC_7",
+            "KC_8",
+            "KC_6"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Distance from the top-left corner of the square to the top-left corner of the parallelogram is 5 cm."
+      ]
+    },
+    {
+      "id": "KC_6",
+      "cognitive_action": "retrieve",
+      "content_element": "Ability to locate and extract numerical data from a visual representation.",
+      "learning_outcome": "Accurately identify and extract numerical values from a diagram or figure.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_6_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_5"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Distance from the top-left corner of the square to the top-left corner of the parallelogram is 5 cm."
+      ]
+    },
+    {
+      "id": "KC_7",
+      "cognitive_action": "recognize",
+      "content_element": "Ability to recognize the units of measurement associated with a numerical value.",
+      "learning_outcome": "Correctly identify and record the units associated with a numerical value extracted from a diagram.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_6_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_5"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Distance from the top-left corner of the square to the top-left corner of the parallelogram is 5 cm."
+      ]
+    },
+    {
+      "id": "KC_8",
+      "cognitive_action": "retrieve",
+      "content_element": "Ability to associate a numerical value with a specific element or variable within a diagram.",
+      "learning_outcome": "Accurately link a numerical value to the corresponding element or variable it represents in the diagram.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_6_2"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_5"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Distance from the top-left corner of the square to the top-left corner of the parallelogram is 5 cm."
+      ]
+    },
+    {
+      "id": "KC_9",
+      "cognitive_action": "recognize",
+      "content_element": "Ability to recognize and record the units of measurement associated with numerical values.",
+      "learning_outcome": "Correctly identify and record the units (e.g., cm, m, inches) associated with each numerical value extracted from the problem statement or diagram.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_5"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_1"
+          ],
+          "child_kcs": [
+            "KC_11",
+            "KC_12",
+            "KC_10"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Side length of the square is 13 cm.",
+        "Distance from the top-left corner of the square to the top-left corner of the parallelogram is 5 cm."
+      ]
+    },
+    {
+      "id": "KC_10",
+      "cognitive_action": "recognize",
+      "content_element": "Ability to recognize the presence of numerical values within a problem statement or diagram.",
+      "learning_outcome": "Identify all numerical values presented in a problem, regardless of their context.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_7",
+        "PLL_8",
+        "PLL_8"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_83",
+            "KC_9"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Side length of the square is 13 cm.",
+        "Distance from the top-left corner of the square to the top-left corner of the parallelogram is 5 cm.",
+        "The height of the smaller rectangle is given as 8 cm.",
+        "The height of the smaller rectangle is given as 8 cm."
+      ]
+    },
+    {
+      "id": "KC_11",
+      "cognitive_action": "recall",
+      "content_element": "Knowledge of standard units of measurement (e.g., cm, m, inches) and their abbreviations.",
+      "learning_outcome": "Accurately recall and state the names and abbreviations of common units of measurement.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_7"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_9"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Side length of the square is 13 cm.",
+        "Distance from the top-left corner of the square to the top-left corner of the parallelogram is 5 cm."
+      ]
+    },
+    {
+      "id": "KC_12",
+      "cognitive_action": "recognize",
+      "content_element": "Ability to recognize the association between a numerical value and its corresponding unit of measurement.",
+      "learning_outcome": "Correctly link each numerical value with its appropriate unit of measurement.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_7"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_9"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Side length of the square is 13 cm.",
+        "Distance from the top-left corner of the square to the top-left corner of the parallelogram is 5 cm."
+      ]
+    },
+    {
+      "id": "KC_13",
+      "cognitive_action": "compute",
+      "content_element": "Ability to compute the difference between two quantities to find an unknown length.",
+      "learning_outcome": "Students can accurately calculate the remaining length after subtracting a known segment from a total length.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": [
+            "KC_14",
+            "KC_18"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, the base length is $13 cm - 5 cm = 8 cm$."
+      ]
+    },
+    {
+      "id": "KC_14",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing the term 'difference' indicates a need to find the result of subtracting one quantity from another.",
+      "learning_outcome": "Students can identify that subtraction is the appropriate operation to determine the difference between a total quantity and a known part.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_9_0",
+        "SEQ_10_0",
+        "SEQ_11_0",
+        "PLL_12"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_13",
+            "KC_100",
+            "KC_16",
+            "KC_22"
+          ],
+          "child_kcs": [
+            "KC_15",
+            "KC_16",
+            "KC_17"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, the base length is $13 cm - 5 cm = 8 cm$.",
+        "Difference = (Number of peaches in 2016) - (Number of peaches in 2017)",
+        "Now, we need to find the difference in the number of peaches harvested between 2016 and 2017.",
+        "The height of a small rectangle is the same as the height of the large rectangle, which is 8 cm."
+      ]
+    },
+    {
+      "id": "KC_15",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing that finding the difference between two quantities requires identifying the larger and smaller quantities.",
+      "learning_outcome": "Students can identify the larger and smaller quantities when determining the difference between them.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_13_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_14"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, the base length is $13 cm - 5 cm = 8 cm$."
+      ]
+    },
+    {
+      "id": "KC_16",
+      "cognitive_action": "determine",
+      "content_element": "Determining that subtraction is the appropriate arithmetic operation when comparing two quantities to find the difference.",
+      "learning_outcome": "Students will be able to select subtraction as the correct operation when asked to find the difference between two values in a mathematical problem.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_13_1",
+        "PLL_14",
+        "PLL_15",
+        "SEQ_11_1",
+        "SEQ_16_2"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_101",
+            "KC_23",
+            "KC_131",
+            "KC_14",
+            "KC_16"
+          ],
+          "child_kcs": [
+            "KC_25",
+            "KC_14",
+            "KC_136",
+            "KC_16"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, the base length is $13 cm - 5 cm = 8 cm$.",
+        "Now, we need to find the difference in the number of peaches harvested between 2016 and 2017.",
+        "Now, we need to find the difference in the number of peaches harvested between 2016 and 2017.",
+        "Now, we need to find the difference in the number of peaches harvested between 2016 and 2017.",
+        "$(□ + 8) \\times 2 = 48$"
+      ]
+    },
+    {
+      "id": "KC_17",
+      "cognitive_action": "compute",
+      "content_element": "Computing the difference between two quantities by performing subtraction.",
+      "learning_outcome": "Students can accurately subtract two quantities to find their difference.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_13_2"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_14"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, the base length is $13 cm - 5 cm = 8 cm$."
+      ]
+    },
+    {
+      "id": "KC_18",
+      "cognitive_action": "compute",
+      "content_element": "Ability to perform subtraction with given quantities.",
+      "learning_outcome": "Students can accurately subtract one quantity from another to find the difference.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_9_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_13"
+          ],
+          "child_kcs": [
+            "KC_19",
+            "KC_20"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, the base length is $13 cm - 5 cm = 8 cm$."
+      ]
+    },
+    {
+      "id": "KC_19",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing that division is the appropriate operation when determining how many times one quantity is contained within another.",
+      "learning_outcome": "Students should be able to recognize situations where division is needed to find how many times a smaller quantity fits into a larger quantity.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_17_0",
+        "SEQ_18_0",
+        "PLL_19"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_180",
+            "KC_88",
+            "KC_18"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, the base length is $13 cm - 5 cm = 8 cm$.",
+        "$□ = 24 - 8$",
+        "we divide the total length by the interval length: $32 cm \n\ndiv 8 cm = 4$ intervals."
+      ]
+    },
+    {
+      "id": "KC_20",
+      "cognitive_action": "compute",
+      "content_element": "Ability to accurately perform the subtraction operation with two numerical values.",
+      "learning_outcome": "Students can accurately perform the subtraction operation to find the numerical difference between two quantities.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_17_1",
+        "SEQ_10_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_18",
+            "KC_100"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, the base length is $13 cm - 5 cm = 8 cm$.",
+        "Difference = (Number of peaches in 2016) - (Number of peaches in 2017)"
+      ]
+    },
+    {
+      "id": "KC_21",
+      "cognitive_action": "determine",
+      "content_element": "Understanding how to determine the number of intervals on a line segment by dividing the total length of the segment by the length of each interval.",
+      "learning_outcome": "Students should be able to select the appropriate operation (division) to find the number of intervals given the total length and interval length.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": [
+            "KC_182",
+            "KC_190",
+            "KC_22",
+            "KC_180",
+            "KC_193",
+            "KC_25",
+            "KC_195",
+            "KC_29"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The length of the base of the parallelogram is the total length of the square's side minus this 5 cm segment.",
+        "To find the number of intervals on a $32 cm$ edge, we divide the total length by the interval length: $32 cm \\div 8 cm = 4$ intervals.",
+        "So, for each edge, we have $3$ points marked in between the vertices.  And we have $12$ edges in total."
+      ]
+    },
+    {
+      "id": "KC_22",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing the whole length of a side as the initial value when a portion is removed.",
+      "learning_outcome": "Students can identify the total side length as the starting point for subtraction when finding the remaining length after a segment is removed.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_20_0",
+        "PLL_21"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_149",
+            "KC_21"
+          ],
+          "child_kcs": [
+            "KC_23",
+            "KC_150",
+            "KC_24",
+            "KC_14"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The length of the base of the parallelogram is the total length of the square's side minus this 5 cm segment.",
+        "The height of a small rectangle is the same as the height of the large rectangle, which is 8 cm."
+      ]
+    },
+    {
+      "id": "KC_23",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing that a rectangle has two pairs of equal sides, referred to as width and height.",
+      "learning_outcome": "Students will be able to identify 'difference' as a keyword that suggests the operation of subtraction is needed to solve a problem.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_22_0",
+        "SEQ_23_0",
+        "PLL_15",
+        "PLL_24",
+        "PLL_25"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_0",
+            "KC_101",
+            "KC_23",
+            "KC_22",
+            "KC_98"
+          ],
+          "child_kcs": [
+            "KC_54",
+            "KC_102",
+            "KC_23",
+            "KC_99",
+            "KC_26",
+            "KC_16"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The length of the base of the parallelogram is the total length of the square's side minus this 5 cm segment.",
+        "Difference = (Number of peaches in 2016) - (Number of peaches in 2017)",
+        "Now, we need to find the difference in the number of peaches harvested between 2016 and 2017.",
+        "The formula for the perimeter of a rectangle is $2 \\times (\\text{width} + \\text{height})$",
+        "The formula for the perimeter of a rectangle is $2 \\times (\\text{width} + \\text{height})$"
+      ]
+    },
+    {
+      "id": "KC_24",
+      "cognitive_action": "compute",
+      "content_element": "Applying subtraction to find the remaining length after a portion is removed from a segment.",
+      "learning_outcome": "Students can calculate the remaining length of a segment by subtracting the removed portion from the original length.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_22_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_22"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The length of the base of the parallelogram is the total length of the square's side minus this 5 cm segment."
+      ]
+    },
+    {
+      "id": "KC_25",
+      "cognitive_action": "determine",
+      "content_element": "Determining the correct operation (subtraction) to find the remaining length after removing a segment from a known length.",
+      "learning_outcome": "Students can select subtraction as the appropriate operation to calculate the remaining length when a portion of a side is removed.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_20_1",
+        "SEQ_26_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_16",
+            "KC_21"
+          ],
+          "child_kcs": [
+            "KC_26",
+            "KC_28",
+            "KC_27"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The length of the base of the parallelogram is the total length of the square's side minus this 5 cm segment.",
+        "$(□ + 8) \\times 2 = 48$"
+      ]
+    },
+    {
+      "id": "KC_26",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing the components of a mathematical formula, including variables and constants.",
+      "learning_outcome": "Students will be able to identify different but equivalent forms of the same mathematical formula.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_27_0",
+        "PLL_28",
+        "SEQ_29_0",
+        "SEQ_30_0",
+        "SEQ_31_0",
+        "PLL_32",
+        "PLL_32",
+        "PLL_33"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_132",
+            "KC_23",
+            "KC_128",
+            "KC_126",
+            "KC_193",
+            "KC_26",
+            "KC_25"
+          ],
+          "child_kcs": [
+            "KC_26",
+            "KC_127"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The length of the base of the parallelogram is the total length of the square's side minus this 5 cm segment.",
+        "Difference = (Number of peaches in 2016) - (Number of peaches in 2017)",
+        "Let's represent the width of the large rectangle with a box, □.",
+        "Let's represent the width of the large rectangle with a box, □.",
+        "Let's represent the width of the large rectangle with a box, □.",
+        "Recognizing the structure of the perimeter formula for a rectangle as P = 2(l + w) or P = 2l + 2w, where P is the perimeter, l is the length, and w is the width.",
+        "Recognizing the structure of the perimeter formula for a rectangle as P = 2(l + w) or P = 2l + 2w, where P is the perimeter, l is the length, and w is the width.",
+        "And we have $12$ edges in total."
+      ]
+    },
+    {
+      "id": "KC_27",
+      "cognitive_action": "determine",
+      "content_element": "Determining the whole quantity and the part being removed in a given problem.",
+      "learning_outcome": "Students can identify the initial quantity and the amount being subtracted from it.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_27_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_25"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The length of the base of the parallelogram is the total length of the square's side minus this 5 cm segment."
+      ]
+    },
+    {
+      "id": "KC_28",
+      "cognitive_action": "implement",
+      "content_element": "Implementing subtraction to calculate the remaining quantity after removing a part from a whole.",
+      "learning_outcome": "Students can perform subtraction to find the difference between two quantities.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_27_2"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_25"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The length of the base of the parallelogram is the total length of the square's side minus this 5 cm segment."
+      ]
+    },
+    {
+      "id": "KC_29",
+      "cognitive_action": "compute",
+      "content_element": "Computing the difference between the total length and the removed segment to find the remaining length.",
+      "learning_outcome": "Students can accurately perform the subtraction to find the base length.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_20_2"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_21"
+          ],
+          "child_kcs": [
+            "KC_30",
+            "KC_31"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The length of the base of the parallelogram is the total length of the square's side minus this 5 cm segment."
+      ]
+    },
+    {
+      "id": "KC_30",
+      "cognitive_action": "determine",
+      "content_element": "Determining the operation needed to find the remaining length after a segment is removed from a total length.",
+      "learning_outcome": "Students can identify subtraction as the appropriate operation to calculate the remaining length.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_34_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_29"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The length of the base of the parallelogram is the total length of the square's side minus this 5 cm segment."
+      ]
+    },
+    {
+      "id": "KC_31",
+      "cognitive_action": "compute",
+      "content_element": "Computing the difference between two quantities to find the remaining quantity.",
+      "learning_outcome": "Students can accurately perform subtraction to find the difference between two values.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_34_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_29"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The length of the base of the parallelogram is the total length of the square's side minus this 5 cm segment."
+      ]
+    },
+    {
+      "id": "KC_32",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing that a side length of a square is equal to the height of an adjacent or related parallelogram when the parallelogram's base is aligned with that side of the square.",
+      "learning_outcome": "Ability to identify the height of a parallelogram when it is geometrically related to the side length of a square.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": [
+            "KC_33",
+            "KC_36",
+            "KC_40"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The height of the parallelogram is simply the side length of the square."
+      ]
+    },
+    {
+      "id": "KC_33",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing a point as a location in space.",
+      "learning_outcome": "Ability to identify the side length of a square in a geometric figure.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_35",
+        "PLL_36"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_37",
+            "KC_32"
+          ],
+          "child_kcs": [
+            "KC_34",
+            "KC_35"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "We have $7$ vertices."
+      ]
+    },
+    {
+      "id": "KC_34",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing geometric shapes as squares based on their properties.",
+      "learning_outcome": "Ability to identify a square among other geometric shapes based on its defining characteristics.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_37"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_33"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Recognizing a side length of a square."
+      ]
+    },
+    {
+      "id": "KC_35",
+      "cognitive_action": "recall",
+      "content_element": "Recalling the definition of a vertex as a point where two or more lines or edges meet.",
+      "learning_outcome": "Ability to state the definition of a side length as a boundary of a two-dimensional shape.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_37",
+        "PLL_36"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_37",
+            "KC_33"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Recognizing a side length of a square.",
+        "We have $7$ vertices."
+      ]
+    },
+    {
+      "id": "KC_36",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing the height of a parallelogram.",
+      "learning_outcome": "Ability to identify the height of a parallelogram, especially when aligned with another shape.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_35"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_32"
+          ],
+          "child_kcs": [
+            "KC_39",
+            "KC_37",
+            "KC_38"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": []
+    },
+    {
+      "id": "KC_37",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing a vertex as a point where two or more lines or edges meet in a geometric shape.",
+      "learning_outcome": "Ability to identify perpendicular lines or segments within a geometric figure.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_38",
+        "SEQ_39_0",
+        "SEQ_40_0",
+        "SEQ_41_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_199",
+            "KC_36",
+            "KC_203",
+            "KC_200"
+          ],
+          "child_kcs": [
+            "KC_33",
+            "KC_35"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Recognizing the height of a parallelogram.",
+        "We have $7$ vertices.",
+        "We have $7$ vertices.",
+        "Finally, we need to add the number of vertices, as points are marked at each vertex as well."
+      ]
+    },
+    {
+      "id": "KC_38",
+      "cognitive_action": "recognize",
+      "content_element": "Identifying the base of a parallelogram as any of its sides.",
+      "learning_outcome": "Ability to select any side of a parallelogram as its base for area calculation.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_38"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_36"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Recognizing the height of a parallelogram."
+      ]
+    },
+    {
+      "id": "KC_39",
+      "cognitive_action": "analyze",
+      "content_element": "Analyzing the spatial orientation of geometric figures to correctly identify relevant dimensions.",
+      "learning_outcome": "Ability to disregard irrelevant spatial orientations when identifying the height of a parallelogram.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_38"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_36"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Ability to identify the height of a parallelogram, especially when aligned with another shape."
+      ]
+    },
+    {
+      "id": "KC_40",
+      "cognitive_action": "analyze",
+      "content_element": "Analyzing the geometric relationship between a square and an adjacent parallelogram to determine if the side length of the square is equal to the height of the parallelogram.",
+      "learning_outcome": "Ability to determine the height of a parallelogram by relating it to the side length of an adjacent square.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_35"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_32"
+          ],
+          "child_kcs": [
+            "KC_42",
+            "KC_41"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The height of the parallelogram is simply the side length of the square."
+      ]
+    },
+    {
+      "id": "KC_41",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing that the height of a parallelogram is the perpendicular distance between its base and the opposite side.",
+      "learning_outcome": "Ability to identify the height of a parallelogram, understanding it is the perpendicular distance between the base and the opposite side, not necessarily the length of a non-perpendicular side.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_42",
+        "SEQ_43_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_207",
+            "KC_40"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The height of the parallelogram is simply the side length of the square.",
+        "Finally, we need to add the number of vertices, as points are marked at each vertex as well."
+      ]
+    },
+    {
+      "id": "KC_42",
+      "cognitive_action": "analyze",
+      "content_element": "Analyzing the spatial relationship between adjacent geometric figures to identify shared dimensions or equivalent lengths.",
+      "learning_outcome": "Ability to relate the dimensions of one geometric figure to another when they are adjacent or share a common side.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_42"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_40"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The height of the parallelogram is simply the side length of the square."
+      ]
+    },
+    {
+      "id": "KC_43",
+      "cognitive_action": "analyze",
+      "content_element": "Understanding the geometric relationship between a square and an inscribed or adjacent parallelogram, specifically how the side length of the square can represent the height of the parallelogram.",
+      "learning_outcome": "Ability to analyze geometric figures to determine shared dimensions or relationships between their properties.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": [
+            "KC_47",
+            "KC_44"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, the height of the parallelogram is 13 cm."
+      ]
+    },
+    {
+      "id": "KC_44",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing that the side length of a square can represent the height of a parallelogram when the parallelogram is inscribed or adjacent to the square.",
+      "learning_outcome": "Ability to identify shared dimensions between a square and an inscribed or adjacent parallelogram.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_44"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_43"
+          ],
+          "child_kcs": [
+            "KC_45",
+            "KC_46"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, the height of the parallelogram is 13 cm."
+      ]
+    },
+    {
+      "id": "KC_45",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing that the side length of a geometric figure can represent a linear dimension (e.g., height) of another geometric figure when one is inscribed or adjacent to the other.",
+      "learning_outcome": "Ability to identify shared linear dimensions between adjacent or inscribed geometric figures.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_45"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_44"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, the height of the parallelogram is 13 cm."
+      ]
+    },
+    {
+      "id": "KC_46",
+      "cognitive_action": "analyze",
+      "content_element": "Analyzing the spatial relationship between two geometric figures to determine if a side length of one figure corresponds to a height or other linear dimension of the other figure.",
+      "learning_outcome": "Ability to determine corresponding linear dimensions between related geometric figures.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_45"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_44"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, the height of the parallelogram is 13 cm."
+      ]
+    },
+    {
+      "id": "KC_47",
+      "cognitive_action": "analyze",
+      "content_element": "Analyzing geometric figures to identify corresponding dimensions or properties that are geometrically related.",
+      "learning_outcome": "Ability to determine relationships between the dimensions of different geometric shapes.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_44"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_43"
+          ],
+          "child_kcs": [
+            "KC_49",
+            "KC_48"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, the height of the parallelogram is 13 cm."
+      ]
+    },
+    {
+      "id": "KC_48",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing the dimensions or properties of a geometric figure.",
+      "learning_outcome": "Ability to identify the specific dimensions or properties of a given geometric figure.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_46"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_47"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, the height of the parallelogram is 13 cm."
+      ]
+    },
+    {
+      "id": "KC_49",
+      "cognitive_action": "analyze",
+      "content_element": "Analyzing the geometric relationships between different dimensions or properties within a geometric figure or between multiple figures.",
+      "learning_outcome": "Ability to determine how different dimensions or properties of geometric figures relate to each other based on geometric principles.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_46"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_47"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, the height of the parallelogram is 13 cm."
+      ]
+    },
+    {
+      "id": "KC_50",
+      "cognitive_action": "apply",
+      "content_element": "Applying the formula for the area of a parallelogram by substituting the given base and height values.",
+      "learning_outcome": "Correctly substitute the base and height values into the area formula to set up the calculation.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": [
+            "KC_58",
+            "KC_61",
+            "KC_51",
+            "KC_55"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "base = 8 cm and height = 13 cm.",
+        "Area = $8 cm \\times 13 cm$."
+      ]
+    },
+    {
+      "id": "KC_51",
+      "cognitive_action": "retrieve",
+      "content_element": "Recalling the formula for the area of a parallelogram.",
+      "learning_outcome": "State the formula: Area = base × height.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_47_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_50"
+          ],
+          "child_kcs": [
+            "KC_54",
+            "KC_52",
+            "KC_53"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": []
+    },
+    {
+      "id": "KC_52",
+      "cognitive_action": "recall",
+      "content_element": "Recalling the definition of area as a measure of two-dimensional space.",
+      "learning_outcome": "State that area quantifies the extent of a 2D surface.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_48"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_51"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "State the formula: Area = base × height."
+      ]
+    },
+    {
+      "id": "KC_53",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing 'base' and 'height' as specific dimensions of a parallelogram.",
+      "learning_outcome": "Identify 'base' and 'height' as linear measurements that define the size of the parallelogram.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_48"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_51"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "State the formula: Area = base × height."
+      ]
+    },
+    {
+      "id": "KC_54",
+      "cognitive_action": "recall",
+      "content_element": "Recalling the terms 'width' and 'height' as the common names for the dimensions of a rectangle.",
+      "learning_outcome": "Students will be able to state that 'width' and 'height' are used to describe the dimensions of a rectangle.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_48",
+        "PLL_49",
+        "PLL_25"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_23",
+            "KC_102",
+            "KC_51"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "State the formula: Area = base × height.",
+        "The formula for the perimeter of a rectangle is $2 \\times (\\text{width} + \\text{height})$"
+      ]
+    },
+    {
+      "id": "KC_55",
+      "cognitive_action": "recognize",
+      "content_element": "Identifying the base and height values from the problem statement.",
+      "learning_outcome": "Correctly identify the numerical values representing the base and height.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_47_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_50"
+          ],
+          "child_kcs": [
+            "KC_57",
+            "KC_56"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": []
+    },
+    {
+      "id": "KC_56",
+      "cognitive_action": "retrieve",
+      "content_element": "Identifying numerical values from a problem statement.",
+      "learning_outcome": "Correctly extract numerical values from a given problem statement.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_50_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_55"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Identifying the base and height values from the problem statement."
+      ]
+    },
+    {
+      "id": "KC_57",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing the labels or descriptions associated with specific numerical values.",
+      "learning_outcome": "Correctly associate numerical values with their corresponding labels or descriptions (e.g., base, height, length, width).",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_50_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_55"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Identifying the base and height values from the problem statement."
+      ]
+    },
+    {
+      "id": "KC_58",
+      "cognitive_action": "represent",
+      "content_element": "Substituting the identified base and height values into the area formula.",
+      "learning_outcome": "Accurately replace the variables 'base' and 'height' in the formula with their corresponding numerical values.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_47_2"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_50"
+          ],
+          "child_kcs": [
+            "KC_59",
+            "KC_60"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "base = 8 cm and height = 13 cm."
+      ]
+    },
+    {
+      "id": "KC_59",
+      "cognitive_action": "retrieve",
+      "content_element": "Identifying the numerical value associated with a given variable within a problem context.",
+      "learning_outcome": "Accurately determine the numerical value assigned to a specific variable from the problem statement.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_51_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_58"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "base = 8 cm and height = 13 cm."
+      ]
+    },
+    {
+      "id": "KC_60",
+      "cognitive_action": "represent",
+      "content_element": "Substituting a numerical value for a variable within a mathematical formula.",
+      "learning_outcome": "Correctly replace a variable in a formula with its corresponding numerical value.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_51_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_58"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "base = 8 cm and height = 13 cm."
+      ]
+    },
+    {
+      "id": "KC_61",
+      "cognitive_action": "compute",
+      "content_element": "Performing the multiplication operation to calculate the area.",
+      "learning_outcome": "Calculate the product of the base and height values to find the area.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_47_3"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_50"
+          ],
+          "child_kcs": [
+            "KC_62",
+            "KC_63"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Area = $8 cm \\times 13 cm$"
+      ]
+    },
+    {
+      "id": "KC_62",
+      "cognitive_action": "compute",
+      "content_element": "Understanding the multiplication operation between two numerical values.",
+      "learning_outcome": "Calculate the product of two numerical values.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_52_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_61"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Area = $8 cm \\times 13 cm$"
+      ]
+    },
+    {
+      "id": "KC_63",
+      "cognitive_action": "compute",
+      "content_element": "Applying the correct units to the result of a multiplication operation involving measurements.",
+      "learning_outcome": "Express the result of a multiplication with the appropriate unit of measurement (e.g., cm * cm = cm^2).",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_52_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_61"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Area = $8 cm \\times 13 cm$"
+      ]
+    },
+    {
+      "id": "KC_64",
+      "cognitive_action": "compute",
+      "content_element": "Performing the multiplication operation to calculate the area.",
+      "learning_outcome": "Accurately multiply the base and height values to find the area.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": [
+            "KC_68",
+            "KC_65"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "$8 \\times 13 = 104$."
+      ]
+    },
+    {
+      "id": "KC_65",
+      "cognitive_action": "compute",
+      "content_element": "Recalling basic multiplication facts.",
+      "learning_outcome": "Accurately recall multiplication facts for single-digit numbers.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_53_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_64"
+          ],
+          "child_kcs": [
+            "KC_66",
+            "KC_67"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "$8 \\times 13 = 104$"
+      ]
+    },
+    {
+      "id": "KC_66",
+      "cognitive_action": "recall",
+      "content_element": "Recalling multiplication facts for numbers 0-9 multiplied by numbers 0-9.",
+      "learning_outcome": "Accurately recall multiplication facts within the 0-9 times table.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_54",
+        "SEQ_55_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_65",
+            "KC_163"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "$8 \\times 13 = 104$",
+        "Perimeter of a small rectangle = $12 \\times 2$"
+      ]
+    },
+    {
+      "id": "KC_67",
+      "cognitive_action": "compute",
+      "content_element": "Applying the distributive property of multiplication over addition to decompose a multiplication problem into smaller, manageable parts.",
+      "learning_outcome": "Decompose a multiplication problem into smaller parts using the distributive property.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_54"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_65"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "$8 \\times 13 = 104$"
+      ]
+    },
+    {
+      "id": "KC_68",
+      "cognitive_action": "compute",
+      "content_element": "Applying the multiplication algorithm to multi-digit numbers.",
+      "learning_outcome": "Correctly execute the multiplication algorithm to find the product of two numbers.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_53_1",
+        "SEQ_55_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_64",
+            "KC_163"
+          ],
+          "child_kcs": [
+            "KC_69",
+            "KC_72",
+            "KC_71",
+            "KC_70"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "$8 \\times 13 = 104$",
+        "Perimeter of a small rectangle = $12 \\times 2$"
+      ]
+    },
+    {
+      "id": "KC_69",
+      "cognitive_action": "compute",
+      "content_element": "Understanding single-digit multiplication facts.",
+      "learning_outcome": "Accurately recall and apply single-digit multiplication facts.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_56_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_68"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "$8 \\times 13 = 104$"
+      ]
+    },
+    {
+      "id": "KC_70",
+      "cognitive_action": "compute",
+      "content_element": "Ability to multiply a multi-digit number by a single-digit number, including carrying.",
+      "learning_outcome": "Correctly multiply a multi-digit number by a single-digit number, accounting for carrying.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_56_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_68"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "$8 \\times 13 = 104$"
+      ]
+    },
+    {
+      "id": "KC_71",
+      "cognitive_action": "compute",
+      "content_element": "Understanding place value when multiplying by multiples of ten.",
+      "learning_outcome": "Correctly apply the carrying over process when the sum of digits in a column exceeds 9.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_56_2",
+        "SEQ_57_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_68",
+            "KC_141"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "$8 \\times 13 = 104$",
+        "So, the total number of points is $36 + 7 = 43$ points."
+      ]
+    },
+    {
+      "id": "KC_72",
+      "cognitive_action": "compute",
+      "content_element": "Ability to add multi-digit numbers accurately.",
+      "learning_outcome": "Correctly sum the partial products in the multiplication algorithm.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_56_3"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_68"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "$8 \\times 13 = 104$"
+      ]
+    },
+    {
+      "id": "KC_73",
+      "cognitive_action": "apply",
+      "content_element": "Stating the area with correct units.",
+      "learning_outcome": "State the area with the correct square units.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": [
+            "KC_74",
+            "KC_77"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The area of the parallelogram is $104 cm^2$."
+      ]
+    },
+    {
+      "id": "KC_74",
+      "cognitive_action": "recall",
+      "content_element": "Recalling the appropriate unit for area measurement.",
+      "learning_outcome": "Identify that area is measured in square units.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_58"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_73"
+          ],
+          "child_kcs": [
+            "KC_76",
+            "KC_75"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The area of the parallelogram is $104 cm^2$."
+      ]
+    },
+    {
+      "id": "KC_75",
+      "cognitive_action": "recall",
+      "content_element": "Recalling that area is measured in square units.",
+      "learning_outcome": "State that area is measured using square units.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_59"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_74"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The area of the parallelogram is $104 cm^2$."
+      ]
+    },
+    {
+      "id": "KC_76",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing the notation for square units (e.g., cm², m², in²).",
+      "learning_outcome": "Identify the superscript '2' as indicating square units.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_59"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_74"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The area of the parallelogram is $104 cm^2$."
+      ]
+    },
+    {
+      "id": "KC_77",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing the correct notation for square units.",
+      "learning_outcome": "Represent area using the correct square unit notation (e.g., cm², m², ft²).",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_58"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_73"
+          ],
+          "child_kcs": [
+            "KC_79",
+            "KC_78"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The area of the parallelogram is $104 cm^2$."
+      ]
+    },
+    {
+      "id": "KC_78",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing the notation for area.",
+      "learning_outcome": "Identify that area is measured in square units.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_60"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_77"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The area of the parallelogram is $104 cm^2$."
+      ]
+    },
+    {
+      "id": "KC_79",
+      "cognitive_action": "recall",
+      "content_element": "Recalling the meaning of the exponent '2' in the context of units.",
+      "learning_outcome": "Understand that 'cm²' represents 'square centimeters'.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_60"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_77"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The area of the parallelogram is $104 cm^2$."
+      ]
+    },
+    {
+      "id": "KC_80",
+      "cognitive_action": "analyze",
+      "content_element": "Understanding how to interpret graph scales to determine the relationship between scale markings, intervals, and represented quantities.",
+      "learning_outcome": "Ability to analyze graph scales to determine the quantity represented by units, intervals, and differences in scale markings.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": null
+    },
+    {
+      "id": "KC_81",
+      "cognitive_action": "compute",
+      "content_element": "Ability to calculate a missing quantity (unit value or number of units) using division, given a total quantity and a related quantity (number of units or rate).",
+      "learning_outcome": "Proficiency in using division to calculate a missing quantity, such as unit value or number of units, when given a total quantity and a related quantity.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": null
+    },
+    {
+      "id": "KC_82",
+      "cognitive_action": "draw conclusions",
+      "content_element": "Ability to draw a conclusion about the value represented by a unit on a graph based on calculations and analysis.",
+      "learning_outcome": "Ability to state the value represented by a single unit on a graph's axis after performing necessary calculations and analysis.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": [
+            "KC_86",
+            "KC_90",
+            "KC_83"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Therefore, in the current graph, each vertical 칸 represents 100 peaches."
+      ]
+    },
+    {
+      "id": "KC_83",
+      "cognitive_action": "retrieve",
+      "content_element": "Ability to retrieve explicitly stated information from a geometric figure description.",
+      "learning_outcome": "Identify and extract numerical values and labels directly stated in the problem description.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_61_0",
+        "PLL_62"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_116",
+            "KC_82"
+          ],
+          "child_kcs": [
+            "KC_84",
+            "KC_10",
+            "KC_85"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Therefore, in the current graph, each vertical 칸 represents 100 peaches.",
+        "The height of the smaller rectangle is given as 8 cm."
+      ]
+    },
+    {
+      "id": "KC_84",
+      "cognitive_action": "retrieve",
+      "content_element": "Ability to identify the scale of an axis on a graph.",
+      "learning_outcome": "Determine the value represented by each unit on a graph axis.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_63_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_83"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Therefore, in the current graph, each vertical 칸 represents 100 peaches."
+      ]
+    },
+    {
+      "id": "KC_85",
+      "cognitive_action": "compute",
+      "content_element": "Ability to calculate the total value represented by a specific number of units on a scaled axis.",
+      "learning_outcome": "Calculate the total value by multiplying the number of units by the scale factor.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_63_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_83"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Therefore, in the current graph, each vertical 칸 represents 100 peaches."
+      ]
+    },
+    {
+      "id": "KC_86",
+      "cognitive_action": "analyze",
+      "content_element": "Ability to analyze the number of units on a graph axis.",
+      "learning_outcome": "Determine the total number of units (e.g., 칸) present on a graph axis.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_61_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_82"
+          ],
+          "child_kcs": [
+            "KC_88",
+            "KC_87",
+            "KC_89"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Therefore, in the current graph, each vertical 칸 represents 100 peaches."
+      ]
+    },
+    {
+      "id": "KC_87",
+      "cognitive_action": "retrieve",
+      "content_element": "Ability to retrieve the scale of a graph axis.",
+      "learning_outcome": "Identify the value represented by each unit on a graph axis.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_64_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_86"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Therefore, in the current graph, each vertical 칸 represents 100 peaches."
+      ]
+    },
+    {
+      "id": "KC_88",
+      "cognitive_action": "compute",
+      "content_element": "Ability to compute the result of subtracting a constant from another constant.",
+      "learning_outcome": "Accurately calculate the total number of marked points by including those at vertices.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_64_1",
+        "SEQ_65_1",
+        "SEQ_18_1",
+        "PLL_66"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_86",
+            "KC_88",
+            "KC_205",
+            "KC_137"
+          ],
+          "child_kcs": [
+            "KC_140",
+            "KC_88",
+            "KC_19"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Therefore, in the current graph, each vertical 칸 represents 100 peaches.",
+        "$□ = 24 - 8$",
+        "$□ = 16$ cm.",
+        "$□ = 24 - 8$",
+        "$□ = 16$ cm.",
+        "Finally, we need to add the number of vertices, as points are marked at each vertex as well."
+      ]
+    },
+    {
+      "id": "KC_89",
+      "cognitive_action": "determine",
+      "content_element": "Ability to determine the total value represented on a graph axis by multiplying the number of units by the scale.",
+      "learning_outcome": "Calculate the total value represented on a graph axis by multiplying the number of units by the value of each unit.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_64_2"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_86"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Therefore, in the current graph, each vertical 칸 represents 100 peaches."
+      ]
+    },
+    {
+      "id": "KC_90",
+      "cognitive_action": "compute",
+      "content_element": "Ability to compute the value represented by a single unit on a graph axis by dividing the total value by the number of units.",
+      "learning_outcome": "Calculate the value represented by one unit on a graph axis.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_61_2"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_82"
+          ],
+          "child_kcs": [
+            "KC_91",
+            "KC_93",
+            "KC_92"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Therefore, in the current graph, each vertical 칸 represents 100 peaches."
+      ]
+    },
+    {
+      "id": "KC_91",
+      "cognitive_action": "retrieve",
+      "content_element": "Ability to retrieve the total value represented on a graph axis.",
+      "learning_outcome": "Identify the total value represented on a graph axis.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_67_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_90"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Therefore, in the current graph, each vertical 칸 represents 100 peaches."
+      ]
+    },
+    {
+      "id": "KC_92",
+      "cognitive_action": "retrieve",
+      "content_element": "Ability to retrieve the number of units on a graph axis.",
+      "learning_outcome": "Identify the number of units on a graph axis.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_67_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_90"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Therefore, in the current graph, each vertical 칸 represents 100 peaches."
+      ]
+    },
+    {
+      "id": "KC_93",
+      "cognitive_action": "compute",
+      "content_element": "Ability to compute the value represented by a single unit by dividing the total value by the number of units.",
+      "learning_outcome": "Calculate the value represented by one unit on a graph axis.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_67_2"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_90"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Therefore, in the current graph, each vertical 칸 represents 100 peaches."
+      ]
+    },
+    {
+      "id": "KC_94",
+      "cognitive_action": "retrieve",
+      "content_element": "Ability to extract a numerical value from a text string.",
+      "learning_outcome": "Isolate and extract the numerical value from the surrounding text.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_2"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_3"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "In 2016, the number of harvested peaches is 2300 개."
+      ]
+    },
+    {
+      "id": "KC_95",
+      "cognitive_action": "retrieve",
+      "content_element": "Ability to retrieve a specific numerical value associated with a given attribute or label.",
+      "learning_outcome": "Extract the numerical value corresponding to a specific attribute from the text.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_1_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_2"
+          ],
+          "child_kcs": [
+            "KC_97",
+            "KC_3",
+            "KC_96"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "In 2016, the number of harvested peaches is 2300 개.",
+        "In 2017, the number of harvested peaches is 1700 개."
+      ]
+    },
+    {
+      "id": "KC_96",
+      "cognitive_action": "recognize",
+      "content_element": "Ability to identify a specific attribute or label within a text string.",
+      "learning_outcome": "Identify the part of the text that describes the attribute or label associated with a numerical value.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_3_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_95"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "In 2016, the number of harvested peaches is 2300 개."
+      ]
+    },
+    {
+      "id": "KC_97",
+      "cognitive_action": "analyze",
+      "content_element": "Ability to associate a recognized numerical value with its corresponding attribute or label based on their proximity or relationship within the text.",
+      "learning_outcome": "Link the numerical value to the correct attribute based on contextual information in the text.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_3_2"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_95"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "In 2017, the number of harvested peaches is 1700 개."
+      ]
+    },
+    {
+      "id": "KC_98",
+      "cognitive_action": "compute",
+      "content_element": "Calculate the difference between two quantities by subtracting the smaller quantity from the larger quantity.",
+      "learning_outcome": "Students will be able to accurately calculate the difference between two given quantities.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": [
+            "KC_23",
+            "KC_100"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Difference = (Number of peaches in 2016) - (Number of peaches in 2017)"
+      ]
+    },
+    {
+      "id": "KC_99",
+      "cognitive_action": "analyze",
+      "content_element": "Analyze the magnitude of two quantities to determine which is larger or smaller.",
+      "learning_outcome": "Students will be able to compare the magnitude of two quantities.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_28"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_23"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Difference = (Number of peaches in 2016) - (Number of peaches in 2017)"
+      ]
+    },
+    {
+      "id": "KC_100",
+      "cognitive_action": "compute",
+      "content_element": "Apply the subtraction operation to find the difference between two quantities.",
+      "learning_outcome": "Students will be able to accurately subtract one quantity from another.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_23_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_98"
+          ],
+          "child_kcs": [
+            "KC_20",
+            "KC_14"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Difference = (Number of peaches in 2016) - (Number of peaches in 2017)"
+      ]
+    },
+    {
+      "id": "KC_101",
+      "cognitive_action": "determine",
+      "content_element": "Recognize that 'difference' implies subtraction.",
+      "learning_outcome": "Students will be able to identify subtraction as the appropriate operation when asked to find the 'difference' between two values.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": [
+            "KC_23",
+            "KC_16"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Now, we need to find the difference in the number of peaches harvested between 2016 and 2017."
+      ]
+    },
+    {
+      "id": "KC_102",
+      "cognitive_action": "recall",
+      "content_element": "Recalling the concept of perimeter as the total distance around a two-dimensional shape.",
+      "learning_outcome": "Students will be able to recall that 'difference' refers to the result obtained by subtracting one quantity from another.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_14",
+        "PLL_24"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_23",
+            "KC_0"
+          ],
+          "child_kcs": [
+            "KC_54",
+            "KC_121",
+            "KC_122"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Now, we need to find the difference in the number of peaches harvested between 2016 and 2017.",
+        "The formula for the perimeter of a rectangle is $2 \\times (\\text{width} + \\text{height})$"
+      ]
+    },
+    {
+      "id": "KC_103",
+      "cognitive_action": "determine",
+      "content_element": "Determining the appropriate operation (division) to find how many units of a given size are contained within a larger quantity.",
+      "learning_outcome": "Select division as the correct operation to determine the number of units when given a total quantity and the size of each unit.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": [
+            "KC_112",
+            "KC_104",
+            "KC_108"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Now we need to determine how many vertical 칸 this difference corresponds to when each 칸 represents 200 peaches."
+      ]
+    },
+    {
+      "id": "KC_104",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing that division is the appropriate operation when determining how many smaller units are contained within a larger quantity.",
+      "learning_outcome": "Identify division as the operation needed to find the number of units within a larger quantity.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_68_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_103"
+          ],
+          "child_kcs": [
+            "KC_105",
+            "KC_107",
+            "KC_106"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Now we need to determine how many vertical 칸 this difference corresponds to when each 칸 represents 200 peaches."
+      ]
+    },
+    {
+      "id": "KC_105",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing that a quantity can be represented in different units.",
+      "learning_outcome": "Identify that a quantity can be expressed using different units of measure.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_69_0",
+        "SEQ_70_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_138",
+            "KC_104"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Now we need to determine how many vertical 칸 this difference corresponds to when each 칸 represents 200 peaches.",
+        "$□ + 8 = 24$"
+      ]
+    },
+    {
+      "id": "KC_106",
+      "cognitive_action": "determine",
+      "content_element": "Determining the appropriate operation to convert between different units of measure.",
+      "learning_outcome": "Select the correct operation (division) to convert a quantity from one unit to another.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_69_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_104"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Now we need to determine how many vertical 칸 this difference corresponds to when each 칸 represents 200 peaches."
+      ]
+    },
+    {
+      "id": "KC_107",
+      "cognitive_action": "implement",
+      "content_element": "Implementing the division operation to find the number of smaller units contained within a larger quantity.",
+      "learning_outcome": "Execute the division operation to convert a quantity from one unit to another.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_69_2"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_104"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Now we need to determine how many vertical 칸 this difference corresponds to when each 칸 represents 200 peaches."
+      ]
+    },
+    {
+      "id": "KC_108",
+      "cognitive_action": "determine",
+      "content_element": "Determining the values to use as the dividend and divisor in a division problem to find the number of units.",
+      "learning_outcome": "Correctly identify the total quantity as the dividend and the size of each unit as the divisor.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_68_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_103"
+          ],
+          "child_kcs": [
+            "KC_111",
+            "KC_110",
+            "KC_109"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Now we need to determine how many vertical 칸 this difference corresponds to when each 칸 represents 200 peaches."
+      ]
+    },
+    {
+      "id": "KC_109",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing the total quantity in a problem as the value to be divided.",
+      "learning_outcome": "Correctly identify the polygonal shape forming the base of a pyramid.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_71_0",
+        "SEQ_72_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_174",
+            "KC_108"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Now we need to determine how many vertical 칸 this difference corresponds to when each 칸 represents 200 peaches.",
+        "First, we need to understand the shape, which is a \"육각뿔\" (hexagonal pyramid)."
+      ]
+    },
+    {
+      "id": "KC_110",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing the size of each unit as the divisor in a division problem.",
+      "learning_outcome": "Correctly identify the size of each unit from a given problem context.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_71_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_108"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Now we need to determine how many vertical 칸 this difference corresponds to when each 칸 represents 200 peaches."
+      ]
+    },
+    {
+      "id": "KC_111",
+      "cognitive_action": "determine",
+      "content_element": "Determining the appropriate operation (division) to find the number of units when given a total quantity and the size of each unit.",
+      "learning_outcome": "Select division as the correct operation to calculate the number of units.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_71_2"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_108"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Now we need to determine how many vertical 칸 this difference corresponds to when each 칸 represents 200 peaches."
+      ]
+    },
+    {
+      "id": "KC_112",
+      "cognitive_action": "implement",
+      "content_element": "Performing the division operation to calculate the number of units.",
+      "learning_outcome": "Accurately execute the division to find the number of units contained within the larger quantity.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_68_2"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_103"
+          ],
+          "child_kcs": [
+            "KC_114",
+            "KC_113"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Now we need to determine how many vertical 칸 this difference corresponds to when each 칸 represents 200 peaches."
+      ]
+    },
+    {
+      "id": "KC_113",
+      "cognitive_action": "determine",
+      "content_element": "Determining the appropriate division operation to find the number of units within a quantity.",
+      "learning_outcome": "Selecting division as the correct operation to determine how many times one quantity is contained within another.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_73_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_112"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Now we need to determine how many vertical 칸 this difference corresponds to when each 칸 represents 200 peaches."
+      ]
+    },
+    {
+      "id": "KC_114",
+      "cognitive_action": "implement",
+      "content_element": "Performing the division operation with the correct values to calculate the number of units.",
+      "learning_outcome": "Accurately executing the division to find the number of units contained within the larger quantity.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_73_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_112"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Now we need to determine how many vertical 칸 this difference corresponds to when each 칸 represents 200 peaches."
+      ]
+    },
+    {
+      "id": "KC_115",
+      "cognitive_action": "recall",
+      "content_element": "Definition of perimeter and formula for the perimeter of a rectangle",
+      "learning_outcome": "Recall the definition of perimeter and the formula for calculating the perimeter of a rectangle",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": null
+    },
+    {
+      "id": "KC_116",
+      "cognitive_action": "analyze",
+      "content_element": "Ability to analyze a geometric figure to identify given information and relevant properties.",
+      "learning_outcome": "Extract and organize relevant information from a geometric problem description, including dimensions and relationships between shapes.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": [
+            "KC_117",
+            "KC_83"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The height of the smaller rectangle is given as 8 cm. This height is also the height of the larger rectangle."
+      ]
+    },
+    {
+      "id": "KC_117",
+      "cognitive_action": "analyze",
+      "content_element": "Ability to analyze a geometric figure to identify shared properties between its components.",
+      "learning_outcome": "Recognize and state shared dimensions or properties between different parts of a geometric figure.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_62"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_116"
+          ],
+          "child_kcs": [
+            "KC_118",
+            "KC_119",
+            "KC_3"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "This height is also the height of the larger rectangle."
+      ]
+    },
+    {
+      "id": "KC_118",
+      "cognitive_action": "analyze",
+      "content_element": "Ability to analyze the dimensions of different geometric components.",
+      "learning_outcome": "Determine the length, width, height, or other dimensions of individual components within a geometric figure.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_4"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_117"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "This height is also the height of the larger rectangle."
+      ]
+    },
+    {
+      "id": "KC_119",
+      "cognitive_action": "analyze",
+      "content_element": "Ability to analyze relationships between dimensions of different geometric components.",
+      "learning_outcome": "Identify shared dimensions or proportional relationships between different parts of a geometric figure.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_4"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_117"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "This height is also the height of the larger rectangle."
+      ]
+    },
+    {
+      "id": "KC_120",
+      "cognitive_action": "analyze",
+      "content_element": "Understanding relationships between components of structured representations.",
+      "learning_outcome": "Recognize and describe how the relationships between components within a structured representation contribute to its overall properties or desired outcome.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": null
+    },
+    {
+      "id": "KC_121",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing that the perimeter of a rectangle can be calculated by summing the lengths of all its sides or by using a formula involving width and height.",
+      "learning_outcome": "Students will be able to identify different methods for calculating the perimeter of a rectangle.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_49"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_102"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The formula for the perimeter of a rectangle is $2 \\times (\\text{width} + \\text{height})$"
+      ]
+    },
+    {
+      "id": "KC_122",
+      "cognitive_action": "compute",
+      "content_element": "Computing the perimeter of a rectangle using the formula 2 * (width + height).",
+      "learning_outcome": "Students will be able to calculate the perimeter of a rectangle given its width and height.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_49"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_102"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The formula for the perimeter of a rectangle is $2 \\times (\\text{width} + \\text{height})$"
+      ]
+    },
+    {
+      "id": "KC_123",
+      "cognitive_action": "compute",
+      "content_element": "Applying the distributive property or order of operations to simplify the expression for the perimeter of a rectangle.",
+      "learning_outcome": "Students will be able to correctly apply the order of operations or distributive property to calculate the perimeter.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_24"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_0"
+          ],
+          "child_kcs": [
+            "KC_124",
+            "KC_0",
+            "KC_125"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The formula for the perimeter of a rectangle is $2 \\times (\\text{width} + \\text{height})$"
+      ]
+    },
+    {
+      "id": "KC_124",
+      "cognitive_action": "compute",
+      "content_element": "Applying the order of operations (PEMDAS/BODMAS) to simplify a numerical expression.",
+      "learning_outcome": "Students will be able to correctly apply the order of operations to simplify numerical expressions.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_74_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_123"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": []
+    },
+    {
+      "id": "KC_125",
+      "cognitive_action": "compute",
+      "content_element": "Applying the distributive property to simplify an algebraic expression.",
+      "learning_outcome": "Students will be able to correctly apply the distributive property to simplify algebraic expressions.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_74_2"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_123"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": []
+    },
+    {
+      "id": "KC_126",
+      "cognitive_action": "represent",
+      "content_element": "Representing an unknown quantity with a symbolic representation.",
+      "learning_outcome": "Students will be able to use a symbol (e.g., a box or a variable) to represent an unknown quantity in an equation.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": [
+            "KC_26",
+            "KC_128"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Let's represent the width of the large rectangle with a box, □."
+      ]
+    },
+    {
+      "id": "KC_127",
+      "cognitive_action": "represent",
+      "content_element": "Representing an unknown quantity with a symbol or variable.",
+      "learning_outcome": "Students will be able to represent unknown quantities using appropriate notation.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_30_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_26"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Let's represent the width of the large rectangle with a box, □."
+      ]
+    },
+    {
+      "id": "KC_128",
+      "cognitive_action": "represent",
+      "content_element": "Selecting an appropriate symbolic representation (e.g., a box, a letter) for an unknown quantity.",
+      "learning_outcome": "Students will be able to choose a suitable symbol to represent an unknown.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_29_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_126"
+          ],
+          "child_kcs": [
+            "KC_26",
+            "KC_129",
+            "KC_130"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Let's represent the width of the large rectangle with a box, □."
+      ]
+    },
+    {
+      "id": "KC_129",
+      "cognitive_action": "determine",
+      "content_element": "Determining the suitability of using a symbolic representation for an unknown quantity.",
+      "learning_outcome": "Students will be able to decide when it is appropriate to use a symbol to represent an unknown.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_31_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_128"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Let's represent the width of the large rectangle with a box, □."
+      ]
+    },
+    {
+      "id": "KC_130",
+      "cognitive_action": "represent",
+      "content_element": "Representing an unknown quantity with a chosen symbol.",
+      "learning_outcome": "Students will be able to assign a chosen symbol to represent an unknown quantity.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_31_2"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_128"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Let's represent the width of the large rectangle with a box, □."
+      ]
+    },
+    {
+      "id": "KC_131",
+      "cognitive_action": "apply",
+      "content_element": "Applying the perimeter formula to set up an equation with a known perimeter and height, and an unknown width.",
+      "learning_outcome": "Students will be able to substitute known values into the perimeter formula and set up an equation to solve for the unknown width.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": [
+            "KC_132",
+            "KC_134",
+            "KC_16"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "$(□ + 8) \\times 2 = 48$"
+      ]
+    },
+    {
+      "id": "KC_132",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing the structure of the perimeter formula for a rectangle as P = 2(l + w) or P = 2l + 2w, where P is the perimeter, l is the length, and w is the width.",
+      "learning_outcome": "Students will be able to identify the components of the perimeter formula and their relationship to the dimensions of a rectangle.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_16_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_131"
+          ],
+          "child_kcs": [
+            "KC_26",
+            "KC_133"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": []
+    },
+    {
+      "id": "KC_133",
+      "cognitive_action": "analyze",
+      "content_element": "Analyzing the relationship between variables in a mathematical formula to understand how changes in one variable affect others.",
+      "learning_outcome": "Students will be able to describe how changing the value of one variable in a formula affects the value of other variables.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_32"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_132"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Students will be able to identify the components of the perimeter formula and their relationship to the dimensions of a rectangle."
+      ]
+    },
+    {
+      "id": "KC_134",
+      "cognitive_action": "represent",
+      "content_element": "Representing a word problem by substituting known values into the perimeter formula, replacing variables with given numerical values.",
+      "learning_outcome": "Students will be able to create an equation by substituting known values into the perimeter formula.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_16_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_131"
+          ],
+          "child_kcs": [
+            "KC_135"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "$(□ + 8) \\times 2 = 48$"
+      ]
+    },
+    {
+      "id": "KC_135",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing the perimeter formula for a rectangle as 2 * (length + width) or 2 * length + 2 * width.",
+      "learning_outcome": "Students will be able to recall the perimeter formula for a rectangle.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_75_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_134"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "$(□ + 8) \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{ ",
+        "cognitive_action",
+        "content_element",
+        "learning_outcome",
+        "prerequisites",
+        "relevant_think_aloud_parts"
+      ]
+    },
+    {
+      "id": "KC_136",
+      "cognitive_action": "determine",
+      "content_element": "Determining the inverse operation needed to isolate a term within parentheses or brackets.",
+      "learning_outcome": "Students will be able to identify the correct inverse operation to apply to both sides of an equation to simplify and isolate terms.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_26_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_16"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "$(□ + 8) \\times 2 = 48$"
+      ]
+    },
+    {
+      "id": "KC_137",
+      "cognitive_action": "compute",
+      "content_element": "Ability to solve for an unknown variable in a one-step addition equation.",
+      "learning_outcome": "Solve for the unknown variable by isolating it using inverse operations.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": [
+            "KC_88",
+            "KC_138"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "$□ + 8 = 24$",
+        "$□ = 24 - 8$",
+        "$□ = 16$ cm."
+      ]
+    },
+    {
+      "id": "KC_138",
+      "cognitive_action": "determine",
+      "content_element": "Ability to determine the inverse operation needed to isolate a variable in a one-step addition equation.",
+      "learning_outcome": "Identify the correct inverse operation (subtraction) to isolate the unknown variable.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_65_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_137"
+          ],
+          "child_kcs": [
+            "KC_105",
+            "KC_139"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "$□ + 8 = 24$",
+        "$□ = 24 - 8$"
+      ]
+    },
+    {
+      "id": "KC_139",
+      "cognitive_action": "determine",
+      "content_element": "Ability to determine the correct operation to isolate a variable in an equation.",
+      "learning_outcome": "Select the appropriate inverse operation to apply to both sides of the equation.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_70_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_138"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "$□ = 24 - 8$"
+      ]
+    },
+    {
+      "id": "KC_140",
+      "cognitive_action": "represent",
+      "content_element": "Representing the unknown variable with a symbol.",
+      "learning_outcome": "Use a symbol to represent the unknown value in a subtraction problem.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_18_2"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_88"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "$□ = 24 - 8$"
+      ]
+    },
+    {
+      "id": "KC_141",
+      "cognitive_action": "compute",
+      "content_element": "Ability to perform single-digit addition.",
+      "learning_outcome": "Accurately calculate the sum of two or more multi-digit numbers.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_141",
+            "KC_146"
+          ],
+          "child_kcs": [
+            "KC_142",
+            "KC_71",
+            "KC_141",
+            "KC_146"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "$□ + 8 = 48 \\div 2$",
+        "So, the total number of points is $36 + 7 = 43$ points.",
+        "So, the total number of points is $36 + 7 = 43$ points."
+      ]
+    },
+    {
+      "id": "KC_142",
+      "cognitive_action": "compute",
+      "content_element": "Ability to perform the division operation.",
+      "learning_outcome": "Accurately divide two numbers to find the quotient.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_76_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_141"
+          ],
+          "child_kcs": [
+            "KC_144",
+            "KC_143",
+            "KC_145"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "$□ + 8 = 48 \\div 2$"
+      ]
+    },
+    {
+      "id": "KC_143",
+      "cognitive_action": "compute",
+      "content_element": "Ability to perform the division operation.",
+      "learning_outcome": "Accurately divide two numbers to find the quotient.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_77_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_142"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "$□ + 8 = 48 \\div 2$"
+      ]
+    },
+    {
+      "id": "KC_144",
+      "cognitive_action": "compute",
+      "content_element": "Ability to perform the addition operation.",
+      "learning_outcome": "Accurately add two numbers to find the sum.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_77_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_142"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "$□ + 8 = 48 \\div 2$"
+      ]
+    },
+    {
+      "id": "KC_145",
+      "cognitive_action": "determine",
+      "content_element": "Ability to determine the correct order of operations.",
+      "learning_outcome": "Correctly apply the order of operations to solve mathematical expressions.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_77_2"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_142"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "$□ + 8 = 48 \\div 2$"
+      ]
+    },
+    {
+      "id": "KC_146",
+      "cognitive_action": "compute",
+      "content_element": "Ability to calculate the sum of two or more quantities.",
+      "learning_outcome": "Accurately determine the value of an arithmetic expression involving one or more operations.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_141"
+          ],
+          "child_kcs": [
+            "KC_209",
+            "KC_141"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "$□ + 8 = 48 \\div 2$",
+        "So, the total number of points is $36 + 7 = 43$ points."
+      ]
+    },
+    {
+      "id": "KC_147",
+      "cognitive_action": "compute",
+      "content_element": "Calculate the length of a smaller segment by dividing the total length by the number of equal segments.",
+      "learning_outcome": "Students can accurately determine the length of a smaller segment when a larger segment is divided into equal parts.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": [
+            "KC_148"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, the width of a small rectangle is $16 \nobreak \\div 4 = 4$ cm."
+      ]
+    },
+    {
+      "id": "KC_148",
+      "cognitive_action": "compute",
+      "content_element": "Understanding how to divide a total quantity by the number of equal parts to find the size of one part.",
+      "learning_outcome": "Students can accurately divide a whole into equal parts to determine the size of each part.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_78_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_147"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, the width of a small rectangle is $16 \\obreak \\div 4 = 4$ cm."
+      ]
+    },
+    {
+      "id": "KC_149",
+      "cognitive_action": "analyze",
+      "content_element": "Recognize that the height of a smaller rectangle is the same as the height of the original rectangle when the original rectangle is divided into smaller rectangles along its width.",
+      "learning_outcome": "Students can identify corresponding dimensions when a shape is divided into smaller, identical shapes.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": [
+            "KC_151",
+            "KC_22"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The height of a small rectangle is the same as the height of the large rectangle, which is 8 cm."
+      ]
+    },
+    {
+      "id": "KC_150",
+      "cognitive_action": "analyze",
+      "content_element": "Analyze the relationship between the dimensions of a whole figure and its parts after division.",
+      "learning_outcome": "Students can describe how the dimensions of the parts relate to the dimensions of the original figure after division.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_12"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_22"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The height of a small rectangle is the same as the height of the large rectangle, which is 8 cm."
+      ]
+    },
+    {
+      "id": "KC_151",
+      "cognitive_action": "analyze",
+      "content_element": "Analyze the relationship between the dimensions of the original rectangle and the resulting smaller rectangles after division.",
+      "learning_outcome": "Students can describe the relationship between the dimensions of the original shape and the resulting shapes after division.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_21"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_149"
+          ],
+          "child_kcs": [
+            "KC_152",
+            "KC_153"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The height of a small rectangle is the same as the height of the large rectangle, which is 8 cm."
+      ]
+    },
+    {
+      "id": "KC_152",
+      "cognitive_action": "analyze",
+      "content_element": "Analyze the relationship between a dimension of a divided shape and the corresponding dimension of the original shape.",
+      "learning_outcome": "Students can describe how a dimension of a divided shape relates to the corresponding dimension of the original shape.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_79"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_151"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The height of a small rectangle is the same as the height of the large rectangle, which is 8 cm."
+      ]
+    },
+    {
+      "id": "KC_153",
+      "cognitive_action": "analyze",
+      "content_element": "Analyze the relationship between another dimension of a divided shape and the corresponding dimension of the original shape.",
+      "learning_outcome": "Students can describe how another dimension of a divided shape relates to the corresponding dimension of the original shape.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_79"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_151"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "The height of a small rectangle is the same as the height of the large rectangle, which is 8 cm."
+      ]
+    },
+    {
+      "id": "KC_154",
+      "cognitive_action": "compute",
+      "content_element": "Ability to apply the order of operations (addition before multiplication) to calculate the perimeter of a rectangle.",
+      "learning_outcome": "Correctly compute the perimeter of a rectangle by following the order of operations.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": [
+            "KC_159",
+            "KC_155"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Perimeter of a small rectangle = $(4 + 8) \\times 2$",
+        "Perimeter of a small rectangle = $12 \\times 2$"
+      ]
+    },
+    {
+      "id": "KC_155",
+      "cognitive_action": "compute",
+      "content_element": "Ability to perform addition within parentheses or brackets before other operations.",
+      "learning_outcome": "Correctly perform addition within parentheses or brackets as the first step in a mathematical expression.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_80_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_154"
+          ],
+          "child_kcs": [
+            "KC_156",
+            "KC_158",
+            "KC_157"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Perimeter of a small rectangle = $(4 + 8) \\times 2$"
+      ]
+    },
+    {
+      "id": "KC_156",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing the presence of parentheses or brackets in a mathematical expression.",
+      "learning_outcome": "Identify parentheses or brackets within a mathematical expression to determine the order of operations.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_81_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_155"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Perimeter of a small rectangle = $(4 + 8) \\times 2$"
+      ]
+    },
+    {
+      "id": "KC_157",
+      "cognitive_action": "determine",
+      "content_element": "Determining that operations within parentheses or brackets should be performed before other operations based on the order of operations.",
+      "learning_outcome": "Prioritize calculations within parentheses or brackets before other operations in a mathematical expression.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_81_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_155"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Perimeter of a small rectangle = $(4 + 8) \\times 2$"
+      ]
+    },
+    {
+      "id": "KC_158",
+      "cognitive_action": "compute",
+      "content_element": "Ability to perform addition within parentheses or brackets.",
+      "learning_outcome": "Correctly perform addition within parentheses or brackets.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_81_2"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_155"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Perimeter of a small rectangle = $(4 + 8) \\times 2$"
+      ]
+    },
+    {
+      "id": "KC_159",
+      "cognitive_action": "compute",
+      "content_element": "Ability to perform multiplication after completing addition within parentheses.",
+      "learning_outcome": "Correctly perform multiplication after simplifying expressions within parentheses.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_80_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_154"
+          ],
+          "child_kcs": [
+            "KC_160",
+            "KC_161"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Perimeter of a small rectangle = $12 \\times 2$"
+      ]
+    },
+    {
+      "id": "KC_160",
+      "cognitive_action": "compute",
+      "content_element": "Ability to perform addition within parentheses.",
+      "learning_outcome": "Correctly simplify expressions within parentheses.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_82_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_159"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Perimeter of a small rectangle = $12 \\times 2$"
+      ]
+    },
+    {
+      "id": "KC_161",
+      "cognitive_action": "compute",
+      "content_element": "Ability to perform multiplication after simplifying expressions.",
+      "learning_outcome": "Correctly perform multiplication after simplifying expressions.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_82_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_159"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Perimeter of a small rectangle = $12 \\times 2$"
+      ]
+    },
+    {
+      "id": "KC_162",
+      "cognitive_action": "compute",
+      "content_element": "Perform multiplication to find the perimeter after adding the width and height.",
+      "learning_outcome": "Accurately multiply to determine the final perimeter value.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": [
+            "KC_164",
+            "KC_163"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Perimeter of a small rectangle = $12 \\times 2$",
+        "Perimeter of a small rectangle = $24$ cm."
+      ]
+    },
+    {
+      "id": "KC_163",
+      "cognitive_action": "compute",
+      "content_element": "Understanding how to perform multiplication of two numbers.",
+      "learning_outcome": "Accurately multiply two numbers to find their product.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_83_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_162"
+          ],
+          "child_kcs": [
+            "KC_66",
+            "KC_68"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Perimeter of a small rectangle = $12 \\times 2$"
+      ]
+    },
+    {
+      "id": "KC_164",
+      "cognitive_action": "compute",
+      "content_element": "Ability to compute the result of a multiplication operation.",
+      "learning_outcome": "Determine the product of two numbers.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_83_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_162"
+          ],
+          "child_kcs": [
+            "KC_166",
+            "KC_165"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Perimeter of a small rectangle = $24$ cm."
+      ]
+    },
+    {
+      "id": "KC_165",
+      "cognitive_action": "recall",
+      "content_element": "Recalling the definition of multiplication as repeated addition or scaling.",
+      "learning_outcome": "State the definition of multiplication.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_84"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_164"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Perimeter of a small rectangle = $24$ cm."
+      ]
+    },
+    {
+      "id": "KC_166",
+      "cognitive_action": "compute",
+      "content_element": "Ability to perform basic arithmetic operations (addition) to arrive at a solution.",
+      "learning_outcome": "Calculate the sum of numbers.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_84"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_164"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Perimeter of a small rectangle = $24$ cm."
+      ]
+    },
+    {
+      "id": "KC_167",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing and classifying geometric shapes, specifically identifying a hexagonal pyramid.",
+      "learning_outcome": "Accurately identify and classify different types of pyramids based on their base shape.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": [
+            "KC_171",
+            "KC_174",
+            "KC_168"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "First, we need to understand the shape, which is a \"육각뿔\" (hexagonal pyramid).",
+        "A hexagonal pyramid has a hexagon as its base and triangles connecting each side of the hexagon to a single point at the top, called the apex."
+      ]
+    },
+    {
+      "id": "KC_168",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing the base shape of a pyramid as a polygon.",
+      "learning_outcome": "Accurately identify the polygonal base of a pyramid.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_85"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_167"
+          ],
+          "child_kcs": [
+            "KC_170",
+            "KC_169"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "A hexagonal pyramid has a hexagon as its base"
+      ]
+    },
+    {
+      "id": "KC_169",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing common polygons (triangle, square, pentagon, hexagon, etc.)",
+      "learning_outcome": "Accurately identify common polygons.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_86"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": [
+            "KC_211"
+          ]
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_168"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "A hexagonal pyramid has a hexagon as its base"
+      ]
+    },
+    {
+      "id": "KC_170",
+      "cognitive_action": "classify",
+      "content_element": "Classifying a shape as the base of a three-dimensional object.",
+      "learning_outcome": "Correctly identify the base of a three-dimensional object.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_86"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_168"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "A hexagonal pyramid has a hexagon as its base"
+      ]
+    },
+    {
+      "id": "KC_171",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing the triangular faces connecting the base to a single apex point in a pyramid.",
+      "learning_outcome": "Accurately identify the triangular faces and apex of a pyramid.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_85"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_167"
+          ],
+          "child_kcs": [
+            "KC_172",
+            "KC_173"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "triangles connecting each side of the hexagon to a single point at the top, called the apex."
+      ]
+    },
+    {
+      "id": "KC_172",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing triangular faces as polygons with three sides and three angles.",
+      "learning_outcome": "Accurately identify triangular faces within a 3D shape.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_87"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_171"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "triangles connecting each side of the hexagon to a single point at the top, called the apex."
+      ]
+    },
+    {
+      "id": "KC_173",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing the apex as a single point where all triangular faces converge in a pyramid.",
+      "learning_outcome": "Accurately identify the apex of a pyramid.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_87"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_171"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "triangles connecting each side of the hexagon to a single point at the top, called the apex."
+      ]
+    },
+    {
+      "id": "KC_174",
+      "cognitive_action": "classify",
+      "content_element": "Classifying a pyramid based on the shape of its base.",
+      "learning_outcome": "Correctly classify pyramids based on the number of sides of the polygonal base (e.g., hexagonal pyramid, square pyramid).",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_85"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_167"
+          ],
+          "child_kcs": [
+            "KC_175",
+            "KC_109"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "First, we need to understand the shape, which is a \"육각뿔\" (hexagonal pyramid)."
+      ]
+    },
+    {
+      "id": "KC_175",
+      "cognitive_action": "classify",
+      "content_element": "Classifying a pyramid based on the number of sides of its base.",
+      "learning_outcome": "Correctly classify pyramids based on the number of sides of the polygonal base (e.g., hexagonal pyramid).",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_72_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_174"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "First, we need to understand the shape, which is a \"육각뿔\" (hexagonal pyramid)."
+      ]
+    },
+    {
+      "id": "KC_176",
+      "cognitive_action": "recall",
+      "content_element": "Recalling the definition and properties of vertices and edges in geometric shapes.",
+      "learning_outcome": "Accurately recall the definition of vertices and edges and apply this knowledge to identify and count them in geometric shapes.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": null
+    },
+    {
+      "id": "KC_177",
+      "cognitive_action": "determine",
+      "content_element": "Determining the necessary steps or information to solve a problem",
+      "learning_outcome": "Identify the required information or steps needed to solve problems in different contexts.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": null
+    },
+    {
+      "id": "KC_178",
+      "cognitive_action": "analyze",
+      "content_element": "Determining the number of vertices or edges in a pyramid by considering its base and apex/connecting edges",
+      "learning_outcome": "Accurately calculate the total number of vertices or edges in a pyramid by summing the vertices/edges of the base and considering the apex/edges connecting each vertex of the base to the apex.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": null
+    },
+    {
+      "id": "KC_179",
+      "cognitive_action": "compute",
+      "content_element": "Ability to compute a quantity (total or number of units) using multiplication or division based on the relationship between a total quantity, a unit quantity, and the number of units.",
+      "learning_outcome": "Students should be able to compute a quantity (total or number of units) in quantitative problems involving the relationship between total quantity, unit quantity, and number of units.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": null
+    },
+    {
+      "id": "KC_180",
+      "cognitive_action": "determine",
+      "content_element": "Understanding that division is the appropriate operation to use when finding how many times one quantity is contained within another.",
+      "learning_outcome": "Students should be able to identify division as the correct operation for determining how many smaller units fit into a larger unit.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_88_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_21"
+          ],
+          "child_kcs": [
+            "KC_19",
+            "KC_181"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "we divide the total length by the interval length: $32 cm \\div 8 cm = 4$ intervals."
+      ]
+    },
+    {
+      "id": "KC_181",
+      "cognitive_action": "determine",
+      "content_element": "Determining the dividend and divisor based on the problem context when finding how many times one quantity is contained within another.",
+      "learning_outcome": "Students should be able to correctly identify which quantity is being divided (dividend) and which quantity is dividing (divisor) in a division problem.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_19"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_180"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "we divide the total length by the interval length: $32 cm \n\ndiv 8 cm = 4$ intervals."
+      ]
+    },
+    {
+      "id": "KC_182",
+      "cognitive_action": "compute",
+      "content_element": "Ability to perform division with appropriate units to find the number of intervals.",
+      "learning_outcome": "Students should be able to accurately divide the total length by the interval length to calculate the number of intervals.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_88_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_21"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "$32 cm \\div 8 cm = 4$ intervals."
+      ]
+    },
+    {
+      "id": "KC_183",
+      "cognitive_action": "analyze",
+      "content_element": "Understanding how to determine the number of internal points on a line segment given the number of equal intervals it is divided into by subtracting 1 from the number of intervals.",
+      "learning_outcome": "Ability to calculate the number of internal points on a line segment when it is divided into a given number of equal intervals.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": [
+            "KC_184",
+            "KC_187"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "If there are 4 intervals on an edge, it means there are $4-1 = 3$ points marked *within* the edge, not including the endpoints (which are the vertices)."
+      ]
+    },
+    {
+      "id": "KC_184",
+      "cognitive_action": "determine",
+      "content_element": "Determining the number of segments created by dividing a line into equal intervals.",
+      "learning_outcome": "Ability to determine the number of segments when a line is divided into equal intervals.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_89_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_183"
+          ],
+          "child_kcs": [
+            "KC_186",
+            "KC_185"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "If there are 4 intervals on an edge..."
+      ]
+    },
+    {
+      "id": "KC_185",
+      "cognitive_action": "determine",
+      "content_element": "Determining the number of equal intervals a line is divided into.",
+      "learning_outcome": "Ability to determine the number of equal intervals on a line.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_90_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_184"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "If there are 4 intervals on an edge..."
+      ]
+    },
+    {
+      "id": "KC_186",
+      "cognitive_action": "compute",
+      "content_element": "Computing the number of segments based on the number of intervals.",
+      "learning_outcome": "Ability to compute the number of segments from the number of intervals.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_90_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_184"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "If there are 4 intervals on an edge..."
+      ]
+    },
+    {
+      "id": "KC_187",
+      "cognitive_action": "compute",
+      "content_element": "Computing the number of internal points on a line segment by subtracting 1 from the number of equal intervals.",
+      "learning_outcome": "Ability to calculate the number of internal points on a line segment given the number of equal intervals.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_89_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_183"
+          ],
+          "child_kcs": [
+            "KC_189",
+            "KC_188"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "it means there are $4-1 = 3$ points marked *within* the edge"
+      ]
+    },
+    {
+      "id": "KC_188",
+      "cognitive_action": "compute",
+      "content_element": "Calculating the difference between two quantities.",
+      "learning_outcome": "Ability to compute the difference between two quantities.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_91_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_187"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "4-1"
+      ]
+    },
+    {
+      "id": "KC_189",
+      "cognitive_action": "determine",
+      "content_element": "Determining the number of internal elements by subtracting one from the total number of intervals.",
+      "learning_outcome": "Ability to determine the number of internal elements when given the total number of intervals.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_91_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_187"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "it means there are $4-1 = 3$ points marked *within* the edge"
+      ]
+    },
+    {
+      "id": "KC_190",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing the number of objects per group.",
+      "learning_outcome": "Students will be able to identify the number of objects within a single group.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_92_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_21"
+          ],
+          "child_kcs": [
+            "KC_191",
+            "KC_192"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, for each edge, we have $3$ points marked in between the vertices."
+      ]
+    },
+    {
+      "id": "KC_191",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing a group of objects as a distinct entity.",
+      "learning_outcome": "Students will be able to identify a collection of items as a single group.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_93"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_190"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, for each edge, we have $3$ points marked in between the vertices."
+      ]
+    },
+    {
+      "id": "KC_192",
+      "cognitive_action": "compute",
+      "content_element": "Determining the cardinality (number of elements) of a set.",
+      "learning_outcome": "Students will be able to count the number of objects within a defined group.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_93"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_190"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, for each edge, we have $3$ points marked in between the vertices."
+      ]
+    },
+    {
+      "id": "KC_193",
+      "cognitive_action": "retrieve",
+      "content_element": "Retrieving the total number of groups.",
+      "learning_outcome": "Students will be able to retrieve the total number of groups from the problem statement or a given representation.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_92_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_21"
+          ],
+          "child_kcs": [
+            "KC_26",
+            "KC_194"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "And we have $12$ edges in total."
+      ]
+    },
+    {
+      "id": "KC_194",
+      "cognitive_action": "retrieve",
+      "content_element": "Retrieving a specific numerical value associated with a quantity from the problem statement.",
+      "learning_outcome": "Students will be able to extract the numerical value associated with a specific quantity.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_33"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_193"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "And we have $12$ edges in total."
+      ]
+    },
+    {
+      "id": "KC_195",
+      "cognitive_action": "determine",
+      "content_element": "Determining the total number of objects by multiplying the number of objects per group by the total number of groups.",
+      "learning_outcome": "Students will be able to determine the total number of objects by multiplying the number of objects per group by the total number of groups.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_92_2"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_21"
+          ],
+          "child_kcs": [
+            "KC_198",
+            "KC_197",
+            "KC_196"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, for each edge, we have $3$ points marked in between the vertices.  And we have $12$ edges in total."
+      ]
+    },
+    {
+      "id": "KC_196",
+      "cognitive_action": "determine",
+      "content_element": "Determining the number of objects per group.",
+      "learning_outcome": "Students will be able to determine the number of objects per group.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_94_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_195"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, for each edge, we have $3$ points marked in between the vertices."
+      ]
+    },
+    {
+      "id": "KC_197",
+      "cognitive_action": "determine",
+      "content_element": "Determining the total number of groups.",
+      "learning_outcome": "Students will be able to determine the total number of groups.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_94_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_195"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "And we have $12$ edges in total."
+      ]
+    },
+    {
+      "id": "KC_198",
+      "cognitive_action": "compute",
+      "content_element": "Computing the total number of objects by multiplying the number of objects per group by the total number of groups.",
+      "learning_outcome": "Students will be able to compute the total number of objects by multiplying the number of objects per group by the total number of groups.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_94_2"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_195"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, for each edge, we have $3$ points marked in between the vertices.  And we have $12$ edges in total."
+      ]
+    },
+    {
+      "id": "KC_199",
+      "cognitive_action": "determine",
+      "content_element": "Determining the number of vertices in a given geometric shape.",
+      "learning_outcome": "Ability to count the number of vertices in various geometric shapes.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": [
+            "KC_37",
+            "KC_200"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "We have $7$ vertices."
+      ]
+    },
+    {
+      "id": "KC_200",
+      "cognitive_action": "compute",
+      "content_element": "Counting the number of identified vertices in a given geometric shape.",
+      "learning_outcome": "Ability to accurately count the vertices of a geometric shape.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_39_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_199"
+          ],
+          "child_kcs": [
+            "KC_201",
+            "KC_37"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "We have $7$ vertices."
+      ]
+    },
+    {
+      "id": "KC_201",
+      "cognitive_action": "compute",
+      "content_element": "Applying a counting process to enumerate the identified vertices.",
+      "learning_outcome": "Ability to accurately count the number of vertices in a geometric shape.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_40_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_200"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "We have $7$ vertices."
+      ]
+    },
+    {
+      "id": "KC_202",
+      "cognitive_action": "integrate",
+      "content_element": "Integrating the information that points are marked at each vertex with the number of vertices to account for all marked points.",
+      "learning_outcome": "Ability to combine information about the location of points (vertices) with the total number of such locations to solve a problem.",
+      "is_atomic": false,
+      "breakdown_type": [],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [],
+          "child_kcs": [
+            "KC_207",
+            "KC_205",
+            "KC_203"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Finally, we need to add the number of vertices, as points are marked at each vertex as well."
+      ]
+    },
+    {
+      "id": "KC_203",
+      "cognitive_action": "retrieve",
+      "content_element": "Retrieving the number of vertices in a geometric figure.",
+      "learning_outcome": "Ability to identify the number of vertices in a given geometric figure.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_95_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_202"
+          ],
+          "child_kcs": [
+            "KC_204",
+            "KC_37"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Finally, we need to add the number of vertices, as points are marked at each vertex as well."
+      ]
+    },
+    {
+      "id": "KC_204",
+      "cognitive_action": "compute",
+      "content_element": "Determining the total number of identified vertices in a geometric figure.",
+      "learning_outcome": "Ability to accurately count the number of vertices in a geometric figure.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_41_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_203"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Finally, we need to add the number of vertices, as points are marked at each vertex as well."
+      ]
+    },
+    {
+      "id": "KC_205",
+      "cognitive_action": "analyze",
+      "content_element": "Recognizing that points marked at vertices must be included in the total count of marked points.",
+      "learning_outcome": "Understanding that vertices represent locations where points can be marked and must be accounted for when calculating the total number of marked points.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_95_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_202"
+          ],
+          "child_kcs": [
+            "KC_88",
+            "KC_206"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Finally, we need to add the number of vertices, as points are marked at each vertex as well."
+      ]
+    },
+    {
+      "id": "KC_206",
+      "cognitive_action": "recognize",
+      "content_element": "Recognizing vertices as locations where points can be marked.",
+      "learning_outcome": "Understanding that vertices of a geometric figure can be locations where points are marked.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "PLL_66"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_205"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Finally, we need to add the number of vertices, as points are marked at each vertex as well."
+      ]
+    },
+    {
+      "id": "KC_207",
+      "cognitive_action": "compute",
+      "content_element": "Adding the number of vertices to the count of other marked points to find the total number of marked points.",
+      "learning_outcome": "Ability to calculate the total number of marked points by summing the number of vertices and any other marked points.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_95_2"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_202"
+          ],
+          "child_kcs": [
+            "KC_41",
+            "KC_208"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Finally, we need to add the number of vertices, as points are marked at each vertex as well."
+      ]
+    },
+    {
+      "id": "KC_208",
+      "cognitive_action": "compute",
+      "content_element": "Adding two or more quantities to find the total number of items.",
+      "learning_outcome": "Ability to calculate the sum of two or more quantities to determine a total.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_43_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_207"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "Finally, we need to add the number of vertices, as points are marked at each vertex as well."
+      ]
+    },
+    {
+      "id": "KC_209",
+      "cognitive_action": "recall",
+      "content_element": "Recalling basic addition facts.",
+      "learning_outcome": "Accurately recall the sum of single-digit numbers.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_96_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_146"
+          ],
+          "child_kcs": [
+            "KC_210",
+            "KC_211"
+          ]
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, the total number of points is $36 + 7 = 43$ points."
+      ]
+    },
+    {
+      "id": "KC_210",
+      "cognitive_action": "recall",
+      "content_element": "Recalling single-digit addition facts.",
+      "learning_outcome": "Accurately recall the sum of any two single-digit numbers.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_97_0"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_209"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, the total number of points is $36 + 7 = 43$ points."
+      ]
+    },
+    {
+      "id": "KC_211",
+      "cognitive_action": "compute",
+      "content_element": "Adding a two-digit number and a single-digit number.",
+      "learning_outcome": "Accurately compute the sum of a two-digit number and a single-digit number.",
+      "is_atomic": false,
+      "breakdown_type": [
+        "SEQ_97_1"
+      ],
+      "edges": {
+        "prerequisites": {
+          "parent_kcs": [
+            "KC_169"
+          ],
+          "child_kcs": []
+        },
+        "breakdown": {
+          "parent_kcs": [
+            "KC_209"
+          ],
+          "child_kcs": []
+        }
+      },
+      "relevant_think_aloud_parts": [
+        "So, the total number of points is $36 + 7 = 43$ points."
+      ]
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-02-17T09:08:52.778273",
+    "description": "Knowledge Components merged using similarity-based approach"
+  },
+  "statistics": {
+    "total_kcs": 212
+  }
+}
